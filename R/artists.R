@@ -28,4 +28,4 @@
 #'     title = "Popularity of the name `Joseph` in Northern Ireland",
 #'     x = "Year", y = "Number of babies"
 #'     )
-"worksgardner"
+"artists"
