@@ -24,15 +24,15 @@
 #'   \item{artist_gender}{The gender of the artist.}
 #'   \item{artist_race}{The race of the artist.}
 #'   \item{artist_ethnicity}{The ethnicity of the artist.}
-#'   \item{heightof_work_in_book}{The height in centimeters of the figure of
+#'   \item{height_of_work_in_book}{The height in centimeters of the figure of
 #'    the work in the book itself.}
 #'   \item{width_of_work_in_book}{The width in centimeters of the figure of
 #'    the work in the book itself.}
-#'   \item{length_of_text}{The length in centimeters of the text written about
+#'   \item{height_of_text}{The height in centimeters of the text written about
 #'   a given work by a given artist in a given edition.}
 #'   \item{width_of_text}{The width in centimeters of the text written about
 #'   a given work by a given artist in a given edition.}
-#'   \item{extra_text_length}{The length in centimeters of the extra text
+#'   \item{extra_text_height}{The height in centimeters of the extra text
 #'   written if the text of the work of an artist in not in a rectangular
 #'   shape.}
 #'   \item{extra_text_width}{The width in centimeters of the extra text

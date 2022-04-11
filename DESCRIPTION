@@ -1,10 +1,10 @@
 Package: arthistory
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Art History Textbook Data
+Version: 0.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    c(person("Sara", "Lemus", email = "saralemus70@gmail.com", role = c("aut", "cre")),
+    person("Holland", "Stam", email = "holly.stam@gmail.com", role = "aut"))
+Description: Data from Gardner and Janson art history textbooks about both the artists featured in these books as well as their works.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
