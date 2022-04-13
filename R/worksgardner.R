@@ -59,12 +59,5 @@
 #' library(ggplot2)
 #' library(dplyr)
 #'
-#' worksjanson %>%
-#'   filter(name == "Joseph") %>%
-#'   ggplot(aes(x = year, y = n)) +
-#'   geom_line() +
-#'   labs(
-#'     title = "Popularity of the name `Joseph` in Northern Ireland",
-#'     x = "Year", y = "Number of babies"
-#'     )
+#' worksgardner
 "worksgardner"
