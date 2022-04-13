@@ -4,6 +4,8 @@
 # arthistory
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/saralemus7/arthistory/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/arthistory/actions)
 <!-- badges: end -->
 
 The goal of arthistory is to \[fill this in…\]
