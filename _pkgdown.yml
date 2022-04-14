@@ -2,4 +2,12 @@ url: https://saralemus7.github.io/arthistory/
 template:
   bootstrap: 5
   bootswatch: minty
+reference:
+- title: "Data Dictionaries"
+  desc: >
+      Click for more information about each dataset
+  contents:
+  - artists
+  - worksgardner
+  - worksjanson
 
