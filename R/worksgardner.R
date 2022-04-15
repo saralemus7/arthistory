@@ -1,7 +1,5 @@
-#' Northern Ireland baby names
+#' Works of art from Gardner’s Art Through the Ages from 1926 until 2020
 #'
-#' Full baby name data from 1997 to 2020 for Northern Ireland
-#' from the Northern Ireland Statistics and Research Agency.
 #'
 #' @name worksgardner
 #' @docType data
@@ -54,7 +52,7 @@
 #'   but gardner for short.}
 #'   }
 #' @source
-#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2020-0).
+#' Stam, H. (2022). [Quantifying art historical narratives.](https://doi.org/10.7924/r4dn48h0w) Duke Research Data Repository.
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)

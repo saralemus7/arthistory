@@ -3,7 +3,7 @@
 \docType{data}
 \name{worksgardner}
 \alias{worksgardner}
-\title{Northern Ireland baby names}
+\title{Works of art from Gardner’s Art Through the Ages from 1926 until 2020}
 \format{
 A data frame with 2,325 observations on 24 variables.
 \describe{
@@ -55,14 +55,13 @@ but gardner for short.}
 }
 }
 \source{
-Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2020-0}{Baby Names Statistics Boys and Girls}.
+Stam, H. (2022). \href{https://doi.org/10.7924/r4dn48h0w}{Quantifying art historical narratives.} Duke Research Data Repository.
 }
 \usage{
 worksgardner
 }
 \description{
-Full baby name data from 1997 to 2020 for Northern Ireland
-from the Northern Ireland Statistics and Research Agency.
+Works of art from Gardner’s Art Through the Ages from 1926 until 2020
 }
 \examples{
 library(ggplot2)

@@ -3,32 +3,66 @@
 \docType{data}
 \name{worksjanson}
 \alias{worksjanson}
-\title{Northern Ireland baby names}
+\title{Works of art from Janson's History of Art from 1963 until 2011}
 \format{
-A data frame with 22,596 observations on 6 variables.
+A data frame with 1,634 observations on 25 variables.
 \describe{
-\item{year}{A year (1997-2020).}
-\item{sex}{Sex, \code{M} for male and \code{F} for female.}
-\item{name}{A name.}
-\item{n}{Count of name within year and sex.}
-\item{rank}{Rank of name within year and sex.}
-\item{nation}{Nation of data source: \verb{Northern Ireland}.}
+\item{artist_name}{The name of a given artist in a given edition of
+\emph{Janson's Art Through the Ages} who has created a two-dimensional work
+after c. 1750.}
+\item{artist_unique_id}{A unique number assigned to each artist included
+in \emph{Janson's History of Art} that has created a two-dimensional
+work after c. 1750.}
+\item{artist_nationality}{The nationaliity of the artist.}
+\item{artist_gender}{The gender of the artist.}
+\item{artist_race}{The race of the artist.}
+\item{artist_ethnicity}{The ethnicity of the artist.}
+\item{title_of_work}{The title of the work as listed in
+.\emph{Janson's History of Art}}
+\item{edition_number}{The number of the edition of
+\emph{Janson's History of Art}.}
+\item{publication_year}{The year of publication.}
+\item{part_in_text}{The number of the part in the text. In this case,
+every work is from part 4, "The Modern World."}
+\item{chapter_title}{The title of the chapter a given work is in.}
+\item{start_date}{The year the artist began creating the work.}
+\item{end_date}{The year the artist finished the work.}
+\item{circa}{1 if the date of the work was labeled with a circa (around)
+and 0 if the date of the work was not labeled with a circa}
+\item{medium}{The medium of the work.}
+\item{height_of_work_in_book}{The height in centimeters of the work in
+a given edition of \emph{Janson's History of Art}}
+\item{width_of_work_in_book}{The width in centimeters of the work in
+a given edition of \emph{Janson's History of Art}}
+\item{height_of_text}{The height of text in centimeters of the text written
+about the work in a given edition of \emph{Janson's History of Art}}
+\item{width_of_text}{The width of text in centimeters of the text written
+about the work in a given edition of \emph{Janson's History of Art}}
+\item{area_of_work_in_book}{The area in centimeter's squared of a given
+work in a given edition of \emph{Janson's History of Art}}
+\item{area_of_text}{The area in centimeter's squared of the text of given
+work in a given edition of \emph{Janson's History of Art}}
+\item{work_to_figure_ratio}{The size of the actual work divided by the
+size of the work in the book}
+\item{work_in_text_in_color}{If the figure of the work in
+\emph{Janson's History of Art} was in color, such is denoted by a 1, if the
+figure of the work is not in color, such is denoted by a 0.}
+\item{location_as_catalogued_in_janson}{The location of the work as
+catalogued in a given edition of \emph{Janson's History of Art.}}
 }
 }
 \source{
-Northern Ireland Statistics and Research Agency. 2021. \href{https://www.nisra.gov.uk/publications/baby-names-2020-0}{Baby Names Statistics Boys and Girls}.
+Stam, H. (2022). \href{https://doi.org/10.7924/r4dn48h0w}{Quantifying art historical narratives.} Duke Research Data Repository.
 }
 \usage{
 worksjanson
 }
 \description{
-Full baby name data from 1997 to 2020 for Northern Ireland
-from the Northern Ireland Statistics and Research Agency.
+Works of art from Janson's History of Art from 1963 until 2011
 }
 \examples{
 library(ggplot2)
 library(dplyr)
-
 worksjanson
 }
 \keyword{datasets}
