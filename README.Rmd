@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/saralemus7/arthistory/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/arthistory/actions)
 <!-- badges: end -->
 
-This package contains data that was used for Holland Stam's thesis work, which sought to understand which types of artists were over or underrepresented in art history education throughout the years. Stam collected the data by manually taking measurements of both Garder and Janson's art history textbooks, which are the two most popular textbooks used in the American education system. **Holland please edit**
+This package contains data that was used for Holland Stam's thesis work, titled [*Quantifying art historical narratives*](https://doi.org/10.7924/r4dn48h0w). The data was collected to assess the demographic representation of artists through editions of Janson's History of Art and Gardner's Art Through the Ages, two of the most popular art history textbooks used in the American education system. In this package specifically, both artist-level and work-level data was collected along with variables regarding the artists' demographics and numeric metrics for describing how much space they or their work took up in each edition of each textbook.
 
 ## Installation
 
