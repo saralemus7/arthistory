@@ -48,6 +48,7 @@ a work if it is not rectangular in the text.}
 about a given work.}
 \item{total_space}{The area of the work in centimeters squared plus
 the area of the text in centimeters squared given to a particular work.}
+\item{page_area}{\strong{Holland add description here}}
 \item{space_ratio_per_page}{The total space in centimeters squared
 divided by the area of a page in a given edition.}
 \item{book}{The name of the book,\emph{Gardner's Art Through the Ages},
