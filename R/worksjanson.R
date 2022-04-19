@@ -38,6 +38,8 @@
 #'   about the work in a given edition of *Janson's History of Art*}
 #'   \item{width_of_text}{The width of text in centimeters of the text written
 #'   about the work in a given edition of *Janson's History of Art*}
+#'   \item{actual_area_work}{The area in centimeters squared of the actual work
+#'   itself.}
 #'   \item{area_of_work_in_book}{The area in centimeter's squared of a given
 #'   work in a given edition of *Janson's History of Art*}
 #'   \item{area_of_text}{The area in centimeter's squared of the text of given
