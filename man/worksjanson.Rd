@@ -38,7 +38,8 @@ a given edition of \emph{Janson's History of Art}}
 about the work in a given edition of \emph{Janson's History of Art}}
 \item{width_of_text}{The width of text in centimeters of the text written
 about the work in a given edition of \emph{Janson's History of Art}}
-\item{area_actual_work}{\strong{Holland add description here}}
+\item{area_actual_work}{The area in centimeters squared of the actual work
+itself.}
 \item{area_of_work_in_book}{The area in centimeter's squared of a given
 work in a given edition of \emph{Janson's History of Art}}
 \item{area_of_text}{The area in centimeter's squared of the text of given
@@ -53,7 +54,7 @@ catalogued in a given edition of \emph{Janson's History of Art.}}
 }
 }
 \source{
-Stam, H. (2022). \href{https://doi.org/10.7924/r4dn48h0w}{Quantifying art historical narratives.} Duke Research Data Repository.
+Stam, H. (2022). Quantifying art historical narratives. \doi{10.7924/r4dn48h0w}. Duke Research Data Repository.
 }
 \usage{
 worksjanson

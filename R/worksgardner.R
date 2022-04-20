@@ -46,14 +46,15 @@
 #'   about a given work.}
 #'   \item{total_space}{The area of the work in centimeters squared plus
 #'   the area of the text in centimeters squared given to a particular work.}
-#'   \item{page_area}{**Holland add description here**}
+#'   \item{page_area}{The area in centimeters squared of a page in a given
+#'   edition of *Gardner's Art Through the Ages*.}
 #'   \item{space_ratio_per_page}{The total space in centimeters squared
 #'   divided by the area of a page in a given edition.}
 #'   \item{book}{The name of the book,*Gardner's Art Through the Ages*,
 #'   but gardner for short.}
 #'   }
 #' @source
-#' Stam, H. (2022). [Quantifying art historical narratives.](https://doi.org/10.7924/r4dn48h0w) Duke Research Data Repository.
+#' Stam, H. (2022). Quantifying art historical narratives. \doi{10.7924/r4dn48h0w}. Duke Research Data Repository.
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)

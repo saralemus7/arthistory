@@ -41,7 +41,7 @@ if an artist's race is denoted as either white or non-white.}
 }
 }
 \source{
-Stam, H. (2022). \href{https://doi.org/10.7924/r4dn48h0w}{Quantifying art historical narratives.} Duke Research Data Repository.
+Stam, H. (2022). Quantifying art historical narratives. \doi{10.7924/r4dn48h0w}. Duke Research Data Repository.
 }
 \usage{
 artists
