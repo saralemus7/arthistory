@@ -4,6 +4,12 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+ checking CRAN incoming feasibility ... NOTE
+  Maintainer: 'Sara Lemus <saralemus70@gmail.com>'
+  
+  New submission
+  
+ checking for detritus in the temp directory ... NOTE
+  Found the following files/directories:
+    'lastMiKTeXException'
 
-* This is a new release.
