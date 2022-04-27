@@ -55,9 +55,10 @@
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)
+#'
 #' worksjanson %>%
 #'   filter(artist_name == "Pablo Picasso") %>%
-#'   ggplot(aes(x = year)) +
+#'   ggplot(aes(x = publication_year)) +
 #'   geom_bar() +
 #'   labs(
 #'     title = "Count of Works by Pablo Picasso Through Editions of
