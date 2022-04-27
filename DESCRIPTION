@@ -1,6 +1,6 @@
 Package: arthistory
 Title: Art History Textbook Data
-Version: 0.0.0
+Version: 0.1.0
 Authors@R: 
     c(person("Sara", "Lemus", email = "saralemus70@gmail.com", role = c("aut", "cre")),
     person("Holland", "Stam", email = "holly.stam@gmail.com", role = "aut", comment = c(ORCID = "0000-0003-0868-5342")))
