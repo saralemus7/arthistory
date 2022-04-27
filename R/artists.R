@@ -40,17 +40,17 @@
 #'   if an artist's race is denoted as either white or non-white.}
 #'   }
 #' @source
-#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2020-0).
+#'
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)
 #'
-#' worksjanson %>%
-#'   filter(name == "Joseph") %>%
-#'   ggplot(aes(x = year, y = n)) +
-#'   geom_line() +
-#'   labs(
-#'     title = "Popularity of the name `Joseph` in Northern Ireland",
-#'     x = "Year", y = "Number of babies"
-#'     )
+#' artists %>%
+#' ggplot(aes(y = book , fill = artist_gender))+
+#'  geom_bar()+
+#'  labs(
+#'    title = "Gender by Book",
+#'    x = "Count of Artists",
+#'    y = "Book",
+#'    fill = "Artist Gender")
 "artists"

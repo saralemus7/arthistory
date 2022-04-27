@@ -1,0 +1,43 @@
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(tidymodels)
+```
+
+```{r janson}
+
+worksjanson %>%
+   filter(artist_name == "Pablo Picasso") %>%
+   ggplot(aes(x = publication_year)) +
+  geom_bar() +
+   labs(title = "Count of Works by Pablo Picasso Through Editions of 
+     Janson's History of Art",
+     x = "Year", 
+     y = "Number of Works by Picasso")
+
+```
+
+```{r gardner}
+
+worksgardner %>%
+   filter(artist_name == "Pablo Picasso") %>%
+   ggplot(aes(x = year)) +
+   geom_bar() +
+   labs(
+     title = "Count of Works by Pablo Picasso Through Editions of
+     Gardner's Art Through the Ages",
+     x = "Year",
+     y = "Number of Works by Picasso")
+```
+
+```{r artists}
+
+artists %>%
+  ggplot(aes(y = book , fill = artist_gender))+
+  geom_bar()+
+   labs(
+     title = "Gender by Book",
+     x = "Count of Artists",
+     y = "Book", 
+     fill = "Artist Gender")
+```

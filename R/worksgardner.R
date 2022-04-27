@@ -56,17 +56,19 @@
 #'   but gardner for short.}
 #'   }
 #' @source
-#' Northern Ireland Statistics and Research Agency. 2021. [Baby Names Statistics Boys and Girls](https://www.nisra.gov.uk/publications/baby-names-2020-0).
+#'
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)
 #'
-#' worksjanson %>%
-#'   filter(name == "Joseph") %>%
-#'   ggplot(aes(x = year, y = n)) +
-#'   geom_line() +
+#' worksgardner %>%
+#'   filter(artist_name == "Pablo Picasso") %>%
+#'   ggplot(aes(x = year)) +
+#'   geom_bar() +
 #'   labs(
-#'     title = "Popularity of the name `Joseph` in Northern Ireland",
-#'     x = "Year", y = "Number of babies"
+#'     title = "Count of Works by Pablo Picasso Through Editions of
+#'     Gardner's Art Through the Ages",
+#'     x = "Year",
+#'     y = "Number of Works by Picasso"
 #'     )
 "worksgardner"
