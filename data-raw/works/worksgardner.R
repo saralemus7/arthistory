@@ -13,6 +13,7 @@ names(worksgardner) <- newnames2
 worksgardner <- worksgardner %>%
   rename(page_number_of_image = page_numberof_image,
          height_of_text =lengthof_text,
+         publication_year = year,
          height_of_work_in_book = heightof_workin_gardner,
          width_of_text = widthof_text,
          area_of_work_in_book = areaof_workin_gardner,

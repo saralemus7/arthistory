@@ -12,7 +12,7 @@
 #'   *Gardner's Art Through the Ages*.}
 #'   \item{title_of_work}{The title of the work as listed in
 #'   .*Gardner's Art Through the Ages*}
-#'   \item{year}{The year of publication.}
+#'   \item{publication_year}{The year of publication.}
 #'   \item{page_number_of_image}{The page number of the figure of the image
 #'   in the text.}
 #'   \item{artist_unique_id}{A unique number assigned to each artist included
