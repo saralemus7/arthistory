@@ -69,6 +69,15 @@ Works of art from Gardner’s Art Through the Ages from 1926 until 2020
 library(ggplot2)
 library(dplyr)
 
-worksgardner
+worksgardner \%>\%
+  filter(artist_name == "Pablo Picasso") \%>\%
+  ggplot(aes(x = year)) +
+  geom_bar() +
+  labs(
+    title = "Count of Works by Pablo Picasso Through Editions of
+    Gardner's Art Through the Ages",
+    x = "Year",
+    y = "Number of Works by Picasso"
+    )
 }
 \keyword{datasets}

@@ -43,5 +43,12 @@
 #' library(ggplot2)
 #' library(dplyr)
 #'
-#' artists
+#' artists %>%
+#' ggplot(aes(y = book , fill = artist_gender))+
+#'  geom_bar()+
+#'  labs(
+#'    title = "Gender by Book",
+#'    x = "Count of Artists",
+#'    y = "Book",
+#'    fill = "Artist Gender")
 "artists"

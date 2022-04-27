@@ -55,5 +55,14 @@
 #' @examples
 #' library(ggplot2)
 #' library(dplyr)
-#' worksjanson
+#' worksjanson %>%
+#'   filter(artist_name == "Pablo Picasso") %>%
+#'   ggplot(aes(x = year)) +
+#'   geom_bar() +
+#'   labs(
+#'     title = "Count of Works by Pablo Picasso Through Editions of
+#'     Janson's History of Art",
+#'     x = "Year",
+#'     y = "Number of Works by Picasso"
+#'     )
 "worksjanson"

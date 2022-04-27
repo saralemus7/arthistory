@@ -53,6 +53,13 @@ Artists by edition of Gardner or Janson's art history textbook
 library(ggplot2)
 library(dplyr)
 
-artists
+artists \%>\%
+ggplot(aes(y = book , fill = artist_gender))+
+ geom_bar()+
+ labs(
+   title = "Gender by Book",
+   x = "Count of Artists",
+   y = "Book",
+   fill = "Artist Gender")
 }
 \keyword{datasets}
