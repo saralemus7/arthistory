@@ -5,6 +5,7 @@ Authors@R:
     c(person("Sara", "Lemus", email = "saralemus70@gmail.com", role = c("aut", "cre")),
     person("Holland", "Stam", email = "holly.stam@gmail.com", role = "aut", comment = c(ORCID = "0000-0003-0868-5342")))
 Description: Data from Gardner and Janson art history textbooks about both the artists featured in these books as well as their works.
+Helen Gardner (“Art through the ages; an introduction to its history and significance,” 1926, <https://find.library.duke.edu/catalog/DUKE000104481>
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
