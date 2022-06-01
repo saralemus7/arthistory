@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/saralemus7/arthistory/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/arthistory/actions)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/arthistory)](https://cran.r-project.org/package=arthistory)
 <!-- badges: end -->
 
 This package contains data that was used for Holland Stam’s thesis work,
@@ -20,6 +22,13 @@ demographics and numeric metrics for describing how much space they or
 their work took up in each edition of each textbook.
 
 ## Installation
+
+You can install the released version of arthistory from
+[CRAN](https://cran.r-project.org/) with:
+
+``` r
+install.packages("arthistort")
+```
 
 You can install the development version of arthistory from
 [GitHub](https://github.com/) with:

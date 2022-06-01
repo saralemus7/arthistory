@@ -17,11 +17,18 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/saralemus7/arthistory/workflows/R-CMD-check/badge.svg)](https://github.com/saralemus7/arthistory/actions)
+[![CRAN status](https://www.r-pkg.org/badges/version/arthistory)](https://cran.r-project.org/package=arthistory)
 <!-- badges: end -->
 
 This package contains data that was used for Holland Stam's thesis work, titled [*Quantifying art historical narratives*](https://doi.org/10.7924/r4dn48h0w). The data was collected to assess the demographic representation of artists through editions of Janson's History of Art and Gardner's Art Through the Ages, two of the most popular art history textbooks used in the American education system. In this package specifically, both artist-level and work-level data was collected along with variables regarding the artists' demographics and numeric metrics for describing how much space they or their work took up in each edition of each textbook.
 
 ## Installation
+
+You can install the released version of arthistory from [CRAN](https://cran.r-project.org/) with:
+
+```r
+install.packages("arthistort")
+```
 
 You can install the development version of arthistory from [GitHub](https://github.com/) with:
 
