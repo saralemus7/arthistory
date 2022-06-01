@@ -27,7 +27,7 @@ You can install the released version of arthistory from
 [CRAN](https://cran.r-project.org/) with:
 
 ``` r
-install.packages("arthistort")
+install.packages("arthistory")
 ```
 
 You can install the development version of arthistory from
